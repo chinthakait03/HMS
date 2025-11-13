@@ -1,0 +1,46 @@
+Person(displayInformation)
+
+    staff(addStaff,removeStaff,updateDetails)
+
+
+        LabAssistant ( generateReport,showTestResult,managePatientBilling,displayStaffDetail ) 
+
+
+        AdministrativeStaff ( manageDoctorInfo,displayStaffDetail)    
+
+             Admin        ( manageSystem, displayStaffDetail)
+
+             Receptionist ( confirmAppointment,rescheduleAppointment,displayStaffDetail)
+
+        Doctor     ( prescribeMedication,scheduleAppointment,displaySchedule,displayStaffDetail)  
+
+        Pharmacist ( manageInventory,dispenseMedication,displayStaffDetail)  
+
+    
+    patient ( addPrescription,viewPrescriptions,displayInformation,getFirstName)
+
+
+
+
+
+DoctorDetail        ( prescribeMedication,scheduleAppointment,displaySchedule)
+
+Department          ( displayDetails)    
+
+Diagnose            ( diagnose)  
+
+Hospital            ( addStaff,displayStaffDetails,displayDetails)
+
+LabTest             ( display,displayTestResult)
+
+Medicine            ( consult,displayDetails,getName)
+
+Payment             ( makePayment,display)
+
+Prescription        ( display,getMedicineDetails)
+
+UnregisteredVisitor ( displayVisitorDetails)
+
+
+
+
