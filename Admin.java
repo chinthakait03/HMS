@@ -1,6 +1,7 @@
 import java.util.Date;
 
 // after add abstrct key word -- for limit abstract method
+//check
 public abstract class Admin extends AdministrativeStaff {
 
     public Admin(String firstName, String lastName, String gender, String birthDate, String address, String phone, String bloodGroup, Date joined, String id, String designation) {
